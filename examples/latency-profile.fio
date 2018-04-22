@@ -17,5 +17,9 @@ latency_window=5000000
 # 99.9% of IOs must be below the target
 latency_percentile=99.9
 
+runtime=60
+
 [device]
-filename=/dev/sda
+filename=/dev/nvme0n1p4
+# filename=/dev/sda
+# filename=/mnt/ssd

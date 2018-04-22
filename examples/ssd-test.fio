@@ -17,7 +17,7 @@ iodepth=4
 size=10g
 direct=1
 runtime=60
-directory=/mount-point-of-ssd
+directory=/mnt/ssd
 filename=ssd.test.file
 
 [seq-read]
@@ -35,3 +35,6 @@ stonewall
 [rand-write]
 rw=randwrite
 stonewall
+
+[device]
+filename=/dev/nvme0n1p4
